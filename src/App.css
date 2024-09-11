@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+}
+
+.nav {
+  display: inline-flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  padding: 20px;
+}
+button {
+  border: 1px;
+  margin: 10px;
+}
+button.active {
+  color: rgb(26, 0, 0);
+  background-color: #c7def1;
+}
