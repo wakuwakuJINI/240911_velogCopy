@@ -1,7 +1,15 @@
-export default function Main({ selectTab }) {
+import PostCard from "./PostCard";
+export default function Main({ id, title, content, author, createdAt, image, likes, userImage, comments }) {
   return (
-    <>
-      <main>{selectTab}</main>
-    </>
+    <main>
+      <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
+    </main>
   );
 }

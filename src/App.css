@@ -1,5 +1,5 @@
 .header {
-  text-align: center;
+  text-align: left;
 }
 
 .nav {
@@ -12,8 +12,14 @@
 button {
   border: 1px;
   margin: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 button.active {
   color: rgb(26, 0, 0);
   background-color: #c7def1;
+}
+
+.postCard {
+  border: 1px solid black;
 }
